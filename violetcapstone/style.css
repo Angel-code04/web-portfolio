@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=Rajdhani&family=Staatliches&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+    
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: rgb(13, 14, 16);
+}
+
+.parent {
+    position: relative;
+}
+.h {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 3vh !important;
+}
+
+.h a:hover {
+    color:  white !important;
+}
+
+.p-sm-2 {
+    padding: 5px 15px !important;
+}
+
+.p-sm-3 {
+    padding: 5px 18px !important;
+}
+
+.btn {
+    border-radius: 15px !important;
+    font-weight: 600 !important;
+}
+
+.btn-green {
+    border: 3px solid#86c232;
+    color: #86c232;
+}
+
+.btn-blue {
+    border: 3px solid #14ffec;
+    color: #14ffec;
+}
+
+.btn-violet {
+    border: 3px solid #8e05c2;
+    background-color:  #8e05c2;
+    color: #222629;
+}
+
+.flex-sm-column {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 6vw;
+}
+
+.navbar {
+    background-color: rgba(11, 12, 14, 0.8);
+}
+
+.navbar-brand, .name {
+    font-family: 'Koulen', cursive;
+    letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #700b97;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #3e065f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 2.5vh;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #6b6e70 !important;
+}
+
+.dropdown-menu a {
+    font-size: 2.3vh;
+    padding: 10px;
+}
+
+.d-bg {
+    background-color: #0b0c0e;
+}
+
+.d-bg a {
+    color: white;
+}
+
+.d-bg a:hover {
+    background-color: #222629;
+    color: #6b6e70;
+}
+
+.border-width {
+    border-width: 3px !important;
+    border-color: #700b97 !important;
+}
+
+.header{
+    height: 48rem;
+    background-image: url("images/subvertivo-_lab-8HrVclautyw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h-content {
+    padding-top: 30vh;
+}
+
+.title {
+    font-family: 'Staatliches', cursive;
+    font-size: 15vh;
+    letter-spacing: 4vw;
+    color: white;
+}
+
+.subtitle {
+    color: #6b6e70;
+    font-size: 3vh;
+    font-weight: 900;
+}
+
+.subtitle2 {
+    color: #8e05c2;
+    font-size: 2.5vh;
+    font-weight: 900;
+}
+
+.about-bg {
+    background-color: rgb(13, 14, 16);
+}
+
+.about {
+    color: white;
+}
+
+.p-about {
+    line-height: 35px;
+    word-spacing: 3px;
+}
+
+.mb-sm-2 {
+    margin-bottom: 3vh;
+}
+
+.border {
+    border-width: 8px !important;
+    border-radius: 15px;
+    border-color: #8e05c2 !important;
+}
+
+.project-bg {
+   background-color: #222629;
+}
+
+.card-bg {
+    background-color: rgb(13, 14, 16);
+    border-width: 5px !important;
+    border-color: #8e05c2;
+    border-radius: 18px;
+}
+
+.card-bg2 {
+    background-color: #700b97;
+    border-width: 5px !important;
+    border-color: rgb(13, 14, 16);
+    color: black; 
+    font-weight: 600;
+    border-radius: 18px;
+}
+.c-color {
+    color: white !important;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.shadow-lg {
+    box-shadow: 0 0.5rem 1rem rgba(196, 196, 196, 0.2) !important;
+}
+
+.p-sm-0 {
+    padding: 0 !important;
+}
+
+.pt-sm-5 {
+    padding-top: 1rem !important;
+}
+
+.row-logo {
+    flex-wrap: nowrap;
+}
+
+.t-border {
+    box-shadow: 0 0 1rem rgba(196, 196, 196, 0.2) !important;
+}
+
+.ccm-p {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.iframe {
+    width: 70vw;
+    height: 30vh;
+    border: 0;
+    border-radius: 15px;
+}
+
+.modal-content {
+    background-color: #222629;
+    border-bottom: none;
+    color: white;
+}
+
+.modal-content2 {
+    background-color: white;
+    border-bottom: none;
+    color: black;
+}
+
+.c-s h1{
+    color:white;
+}
+
+.d-footer {
+    font-weight: 700;
+}
+
+.d-footerp {
+    font-size: small;
+}
