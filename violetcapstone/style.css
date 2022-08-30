@@ -250,3 +250,8 @@ body {
 .d-footerp {
     font-size: small;
 }
+
+.resource{
+    background-color: #222629;
+    text-decoration: none;
+}
